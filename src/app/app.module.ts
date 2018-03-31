@@ -4,13 +4,18 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-
+import { MaterialModule } from './material.module';
+import { JournalistComponent } from './journalist/journalist.component'
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    JournalistComponent
+
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MaterialModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
