@@ -8,8 +8,10 @@ import { Component, OnInit, Input } from '@angular/core';
 export class JournalistComponent implements OnInit {
 
   @Input() name: string;
+  heroes  = ['Windstorm', 'Bombasto', 'Magneta', 'Tornado'];
 
   constructor() {
+  
   } 
 
 

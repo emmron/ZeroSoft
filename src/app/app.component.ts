@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,4 +11,5 @@ export class AppComponent {
   name = 'emmett';
   company_name = 'ZeroSoft';
   intro_message = 'Welcome to ZeroSoft';
+
 }
