@@ -10,6 +10,6 @@ export class AppComponent {
   title = 'app';
   name = 'emmett';
   company_name = 'ZeroSoft';
-  intro_message = 'Welcome to ZeroSoft';
+  intro_message = 'Sign In';
 
 }
